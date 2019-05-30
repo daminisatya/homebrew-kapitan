@@ -5,7 +5,7 @@ class Kapitan < Formula
   sha256 "551b4ab9610123f6952315c454eb1fd69ed85518d2be3727681dcab6dd16ba2e"
   
   def install
-    system "python3.6", "setup.py", "install"
+    system "python3", "setup.py", "install"
   end
 
   test do
